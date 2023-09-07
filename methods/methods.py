@@ -35,7 +35,7 @@ def read_list(path):
 
 import openai
 import time
-openai.api_key = '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'
+openai.api_key = 'insert_api_key'
 def query_chatgpt(query):
     try:
         response = openai.Completion.create(
